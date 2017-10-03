@@ -40,8 +40,7 @@ function geoFindMe() {
     const height = Math.min(640, window.innerHeight);
     const zoom = translateHDOPtoZoomLevel(hdop);
     
-    output.innerHTML = '<p>Latitude is ' + latitude + ' deg <br>Longitude is ' 
-        + longitude + 'deg<br> horizontal DOP: ' + hdop + ' meters</p>';
+    output.innerHTML = '<p>.</p>';
     var img = new Image();
     img.onload = () => {
       canvas.width = img.width;
