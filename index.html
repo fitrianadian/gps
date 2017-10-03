@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div class="w3-container w3-orange"> 
+Get geolocation and paint on a map. 
+Please use https:// .
+</div>
+<div>
+  <input id="highAccuracy" type="checkbox"  checked="checked">
+  <label for="highAccuracy">highAccuracy?</label>
+  <button onclick="startTracking()">Start watching my location</button>
+  <button onclick="stopTracking()">Stop</button>
+</div>
+</p>
+<div> <canvas id="canvas"> </div>
+<div id="out"></div>
+<script src="https://cdn.rawgit.com/fitrianadian/gps/fbcbab90/a.js" type="text/javascript"></script>
+<style src="https://cdn.rawgit.com/fitrianadian/gps/fbcbab90/a.css" type="text/css">
+
+
+<style type="text/css">
+@media screen and (max-width: 780px) {
+	
+	.header, 
+	.footer{
+		text-align: center;
+	}
+	.left {
+		width: auto;
+		float: none;
+	}
+	
+	.middle {
+		width: auto;
+		float: none;
+	}
+	
+	.right {
+		width: auto;
+		float: none;
+	}
+
+}
+</style>
+
+</body>
+</html>
